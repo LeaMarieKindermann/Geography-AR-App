@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="markericonstuggi" size="3.000000 3.000000" />
+    <ImageTarget name="markericonmunich" size="3.000000 3.000000" />
+    <ImageTarget name="8bitmarkericonbawue" size="3.000000 3.000000" />
+    <ImageTarget name="8bitmarkericonberlin" size="3.000000 3.000000" />
+  </Tracking>
+</QCARConfig>
