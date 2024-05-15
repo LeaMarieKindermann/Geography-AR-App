@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main-menu.unity
+    guid: cc600a0ccb1e424409cfc5da237ea1c9
+  - enabled: 1
+    path: Assets/Scenes/AR-Camera.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: c4df70506f8378f42a01a8372181a2d8
+  - enabled: 1
+    path: Assets/Scenes/Quiz-Auswahl.unity
+    guid: eebd546859968674ea248ed6cbb2961c
   m_configObjects: {}
