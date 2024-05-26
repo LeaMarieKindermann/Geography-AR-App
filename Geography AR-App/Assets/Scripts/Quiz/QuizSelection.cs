@@ -7,16 +7,21 @@ public class QuizSelection : MonoBehaviour
 {
     public void AnfaengerQuiz()
     {
-        SceneManager.LoadScene("Quiz");
+        SceneManager.LoadScene("Anfänger-Quiz");
     }
 
     public void FortgeschrittenenQuiz()
     {
-        // SceneManager.LoadScene("AR-Camera");
+        SceneManager.LoadScene("Fortgeschrittenen-Quiz");
     }
 
     public void ExpertenQuiz()
     {
-        // SceneManager.LoadScene("AR-Camera");
+        SceneManager.LoadScene("Experten-Quiz");
+    }
+
+    public void Quit()
+    {
+        SceneManager.LoadScene("AR-Camera");
     }
 }

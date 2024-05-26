@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ca71d3e9986ae48aa5739807c38f7c, type: 3}
+  m_Name: Brandenburg
+  m_EditorClassIdentifier: 
+  stateName: Brandenburg
+  cityName: Potsdam
+  location: "Nordosten, umschlie\xDFt Berlin "
+  area: "29.654 km\xB2"
+  population: ca. 2.5 Millionen
+  sightseeingAttractions: Schloss Sanssouci, Babelsberg Filmpark, Spreewald, Potsdamer
+    Platz
+  description: "Brandenburg ist bekannt f\xFCr seine Schl\xF6sser und G\xE4rten,
+    insbesondere in Potsdam, sowie f\xFCr seine zahlreichen Seen und W\xE4lder."
+  flag: {fileID: 21300000, guid: a776e3831968c234196ed2608647bf3f, type: 3}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ca71d3e9986ae48aa5739807c38f7c, type: 3}
+  m_Name: "BadenW\xFCrttemberg"
+  m_EditorClassIdentifier: 
+  stateName: "Baden-W\xFCrttemberg"
+  cityName: Stuttgart
+  location: "S\xFCdwesten"
+  area: "35.751 km\xB2"
+  population: ca. 11,3 Millionen
+  sightseeingAttractions: "Schloss Heidelberg, Freiburger M\xFCnster, Mercedes-Benz
+    Museum, Porsche Museum, Schwarzwald"
+  description: "Baden-W\xFCrttemberg ist bekannt f\xFCr seine starke Automobilindustrie
+    mit Unternehmen wie Mercedes-Benz und Porsche. Der Schwarzwald und der Bodensee
+    sind beliebte Naturziele. Wichtige Universit\xE4ten befinden sich in Heidelberg
+    und T\xFCbingen."
+  flag: {fileID: 21300000, guid: 163fe85bc1994664a8c91cf883ed36b7, type: 3}

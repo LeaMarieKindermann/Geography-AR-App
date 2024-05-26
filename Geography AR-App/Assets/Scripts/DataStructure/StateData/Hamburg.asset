@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ca71d3e9986ae48aa5739807c38f7c, type: 3}
+  m_Name: Hamburg
+  m_EditorClassIdentifier: 
+  stateName: Hamburg
+  cityName: Hamburg (Stadtstaat)
+  location: Norddeutschland
+  area: "755 km\xB2"
+  population: ca. 1.8 Millionen
+  sightseeingAttractions: Hafen Hamburg, Elbphilharmonie, Speicherstadt, Miniatur
+    Wunderland, Fischmarkt
+  description: "Hamburg ist eine wichtige Hafenstadt, bekannt f\xFCr ihre Musicals,
+    die Reeperbahn und ihre beeindruckende Architektur."
+  flag: {fileID: 21300000, guid: 3e3359b6f91b0f4429cd92645a6eaba5, type: 3}
