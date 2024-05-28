@@ -18,6 +18,11 @@ public class PopUpMenu : MonoBehaviour
         popup.SetActive(false);
     }
 
+    public void Zurück()
+    {
+        SceneManager.LoadScene("Quiz-Auswahl");
+    }
+
     public void Beenden()
     {
         FindObjectOfType<QuestionGenerator>().RestartQuiz();
