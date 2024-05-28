@@ -20,11 +20,45 @@ public class PopUpMenu : MonoBehaviour
 
     public void Beenden()
     {
+        FindObjectOfType<QuestionGenerator>().RestartQuiz();
+        SceneManager.LoadScene("Quiz-Auswahl");
+    }
+
+    public void BeendenFortgeschritten()
+    {
+        FindObjectOfType<QuestionGeneratorFortgeschritten>().RestartQuiz();
+        SceneManager.LoadScene("Quiz-Auswahl");
+    }
+
+    public void BeendenExperte()
+    {
+        FindObjectOfType<QuestionGeneratorExperten>().RestartQuiz();
         SceneManager.LoadScene("Quiz-Auswahl");
     }
 
     public void Cross()
     {
         popup.SetActive(false);
+    }
+
+    public void RestartAnfänger()
+    {
+        // Lade die Szene neu
+        FindObjectOfType<QuestionGenerator>().RestartQuiz();
+        SceneManager.LoadScene("Anfänger-Quiz");
+    }
+
+    public void RestartFortgeschritten()
+    {
+        // Lade die Szene neu
+        FindObjectOfType<QuestionGeneratorFortgeschritten>().RestartQuiz();
+        SceneManager.LoadScene("Fortgeschrittenen-Quiz");
+    }
+
+    public void RestartExperte()
+    {
+        // Lade die Szene neu
+        FindObjectOfType<QuestionGeneratorExperten>().RestartQuiz();
+        SceneManager.LoadScene("Experten-Quiz");
     }
 }

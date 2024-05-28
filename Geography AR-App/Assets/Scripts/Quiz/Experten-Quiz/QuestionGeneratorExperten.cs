@@ -29,16 +29,17 @@ public class QuestionGeneratorExperten : MonoBehaviour
     private int currentQuestionIndex = 0;
 
     public GameObject visual01;
+    public GameObject endQuizPopup; // Das Popup-GameObject
 
     void Start()
     {
         // Füge die Fragen zur Liste hinzu
-        questions.Add(new Question("Was ist die Hauptstadt von Hessen?", new string[] { "A. Frankfurt", "B. Darmstadt", "C. Wiesbaden", "D. Kassel" }, "A"));
-        questions.Add(new Question("Welches Bundesland hat die Inseln Rügen und Usedom?", new string[] { "A. Schleswig-Holstein", "B. Hamburg", "C. Mecklenburg-Vorpommern", "D. Niedersachsen" }, "C"));
-        questions.Add(new Question("Welches ist das größte Bundesland Deutschlands?", new string[] { "A. Nordrhein-Westfalen", "B. Baden-Württemberg", "C. Niedersachsen", "D. Bayern" }, "D"));
-        questions.Add(new Question("Wie viele Bundesländer hat Deutschland insgesamt?", new string[] { "A. 12", "B. 16", "C. 20", "D. 17" }, "B"));
-        questions.Add(new Question("In welchem Bundesland steht das Brandenburger Tor?", new string[] { "A. Brandenburg", "B. Berlin", "C. Niedersachsen", "D. Nordrhein-Westfalen" }, "B"));
-        questions.Add(new Question("Welches Bundesland wird hier dargestellt?", new string[] { "A. Sachsen", "B. Bremen", "C. Schleswig-Holstein", "D. Thüringen" }, "D"));
+        questions.Add(new Question("Welches Bundesland beherbergt den Schwarzwald, eines der größten Mittelgebirge Deutschlands?", new string[] { "A. Bayern", "B. Baden-Württemberg", "C. Niedersachsen", "D. Sachsen" }, "B"));
+        questions.Add(new Question("Welches Bundesland hat die meisten Einwohner?", new string[] { "A. Bayern", "B. Nordrhein-Westfalen", "C. Baden-Württemberg", "D. Hessen" }, "B"));
+        questions.Add(new Question("Welches Bundesland grenzt nicht an das Ausland?", new string[] { "A. Bayern", "B. Saarland", "C. Brandenburg", "D. Niedersachsen" }, "D"));
+        questions.Add(new Question("Welches Bundesland ist für seine vielfältige Automobilindustrie bekannt, unter anderem mit Standorten wie Wolfsburg und Stuttgart?", new string[] { "A. Bayern", "B. Niedersachsen", "C. Baden-Württemberg", "D. Nordrhein-Westfalen" }, "C"));
+        questions.Add(new Question("Welches von den unten erwähnten Staaten ist ein Sadtstaat?", new string[] { "A. Bremen", "B. Sachsen", "C. Niedersachsen", "D. Nordrhein-Westfalen" }, "A"));
+        questions.Add(new Question("In welchem Bundesland liegt der Harz, ein Mittelgebirge bekannt für seine reiche Bergbauhistorie und seine beeindruckende Natur?", new string[] { "A. Niedersachsen", "B. Nordrhein-Westfalen", "C. Hessen", "D. Sachsen-Anhalt" }, "D"));
 
         // Mische die Fragen, um eine zufällige Reihenfolge zu erhalten
         ShuffleQuestions();
@@ -88,14 +89,14 @@ public class QuestionGeneratorExperten : MonoBehaviour
         currentQuestionIndex++;
 
         // Prüfe, ob es sich um die Frage "Welches Bundesland wird hier dargestellt?" handelt
-        if (currentQuestion.question == "Welches Bundesland wird hier dargestellt?")
+        /* if (currentQuestion.question == "Welches Bundesland wird hier dargestellt?")
         {
             visual01.SetActive(true);
         }
         else
         {
             visual01.SetActive(false);
-        }
+        } */
 
         QuestionDisplayExperten.pleaseUpdate = false;
     }
@@ -104,7 +105,15 @@ public class QuestionGeneratorExperten : MonoBehaviour
     // Methode, um das Quiz zu beenden
     void EndQuiz()
     {
-        // Hier kannst du die Logik einfügen, um das Quiz entsprechend zu beenden
-        Debug.Log("Quiz beendet!");
+        endQuizPopup.SetActive(true);
+    }
+
+    public void RestartQuiz()
+    {
+        // Setze statische Variablen zurück
+        actualAnswer = null;
+        displayingQuestion = false;
+        currentQuestionIndex = 0;
+
     }
 }

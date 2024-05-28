@@ -33,11 +33,20 @@ public class AnswerButtons : MonoBehaviour
     // Parameter für Quiz-ID
     public int quizID;
 
+    // Sterne UI
+    public Image star1;
+    public Image star2;
+    public Image star3;
+
+    public Sprite filledStar; // Gefüllter Stern
+    public Sprite emptyStar; // Leerer Stern
+
     void Start()
     {
         // Verwende den Parameter für den PlayerPrefs-Schlüssel
         bestScore = PlayerPrefs.GetInt("BestScoreQuiz" + quizID);
         bestDisplay.text = "Best: " + bestScore;
+        UpdateStarDisplay(bestScore);
     }
 
     void Update()
@@ -129,6 +138,7 @@ public class AnswerButtons : MonoBehaviour
             PlayerPrefs.SetInt("BestScoreQuiz" + quizID, scoreValue);
             bestScore = scoreValue;
             bestDisplay.text = "Best: " + scoreValue;
+            UpdateStarDisplay(bestScore);
         }
 
         yield return new WaitForSeconds(2);
@@ -162,5 +172,27 @@ public class AnswerButtons : MonoBehaviour
         answerButtonB.GetComponent<Image>().sprite = blueImage;
         answerButtonC.GetComponent<Image>().sprite = blueImage;
         answerButtonD.GetComponent<Image>().sprite = blueImage;
+    }
+
+    void UpdateStarDisplay(int score)
+    {
+        // Setze alle Sterne auf leer
+        star1.sprite = emptyStar;
+        star2.sprite = emptyStar;
+        star3.sprite = emptyStar;
+
+        // Vergib Sterne basierend auf dem Score
+        if (score >= 15)
+        {
+            star1.sprite = filledStar;
+        }
+        if (score >= 30)
+        {
+            star2.sprite = filledStar;
+        }
+        if (score >= 40)
+        {
+            star3.sprite = filledStar;
+        }
     }
 }

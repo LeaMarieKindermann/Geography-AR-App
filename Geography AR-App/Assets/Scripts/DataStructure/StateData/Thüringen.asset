@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98ca71d3e9986ae48aa5739807c38f7c, type: 3}
   m_Name: "Th\xFCringen"
   m_EditorClassIdentifier: 
-  stateName: 
-  cityName: 
-  location: 
-  area: 
-  population: 
-  sightseeingAttractions: 
-  description: 
-  flag: {fileID: 0}
+  stateName: "Th\xFCringen"
+  cityName: Erfurt
+  location: Mitteldeutschland
+  area: "16.172 km\xB2"
+  population: ca. 2.1 Millionen
+  sightseeingAttractions: "Wartburg, Erfurter Dom, Bauhaus-Museum Weimar, Th\xFCringer
+    Wald"
+  description: "Th\xFCringen ist ber\xFChmt f\xFCr die Weimarer Klassik, Lutherst\xE4tten
+    und den Th\xFCringer Wald."
+  flag: {fileID: 21300000, guid: 749efffe5ef0dc749aad6d7f1a3fa98a, type: 3}

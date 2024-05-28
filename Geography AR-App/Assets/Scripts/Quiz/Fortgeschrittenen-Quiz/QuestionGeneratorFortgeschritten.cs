@@ -29,6 +29,7 @@ public class QuestionGeneratorFortgeschritten : MonoBehaviour
     private int currentQuestionIndex = 0;
 
     public GameObject visual01;
+    public GameObject endQuizPopup; // Das Popup-GameObject
 
     void Start()
     {
@@ -97,16 +98,23 @@ public class QuestionGeneratorFortgeschritten : MonoBehaviour
         {
             visual01.SetActive(false);
         }
-        
+
         QuestionDisplayFortgeschritten.pleaseUpdate = false;
-        
     }
 
 
     // Methode, um das Quiz zu beenden
     void EndQuiz()
     {
-        // Hier kannst du die Logik einfügen, um das Quiz entsprechend zu beenden
-        Debug.Log("Quiz beendet!");
+        endQuizPopup.SetActive(true);
+    }
+
+    public void RestartQuiz()
+    {
+        // Setze statische Variablen zurück
+        actualAnswer = null;
+        displayingQuestion = false;
+        currentQuestionIndex = 0;
+
     }
 }
