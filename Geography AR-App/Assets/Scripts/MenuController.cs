@@ -27,4 +27,9 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("Informationsseiten");
     }
+
+    public void InfoseitenFluss()
+    {
+        SceneManager.LoadScene("Informationen Fluesse");
+    }
 }

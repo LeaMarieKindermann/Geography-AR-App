@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="markersaarland" size="3.000000 3.000000" />
-    <ImageTarget name="markerbremen" size="3.000000 3.000000" />
-    <ImageTarget name="markerschlieswig" size="3.000000 3.000000" />
-    <ImageTarget name="markersachsenanhalt" size="3.000000 3.000000" />
-    <ImageTarget name="markerrheinland" size="3.000000 3.000000" />
-    <ImageTarget name="markertuehringen" size="3.000000 3.000000" />
-    <ImageTarget name="markersachsen" size="3.000000 3.000000" />
-    <ImageTarget name="markernordhein" size="3.000000 3.000000" />
-    <ImageTarget name="markerniedersachsen" size="3.000000 3.000000" />
-    <ImageTarget name="markericonhessen" size="3.000000 3.000000" />
-    <ImageTarget name="markericonbrandenburg" size="3.000000 3.000000" />
-    <ImageTarget name="markericonmecklenburg" size="3.000000 3.000000" />
-    <ImageTarget name="markerbawue" size="3.000000 3.000000" />
-    <ImageTarget name="markerbayern" size="3.000000 3.000000" />
+    <ImageTarget name="markerrhein" size="3.000000 3.000000" />
+    <ImageTarget name="markermain" size="3.000000 3.000000" />
+    <ImageTarget name="markerfulda" size="3.000000 3.000000" />
+    <ImageTarget name="markerelbe" size="3.000000 3.000000" />
+    <ImageTarget name="markerdonau" size="3.000000 3.000000" />
     <ImageTarget name="markericonhamburg" size="3.000000 3.000000" />
-    <ImageTarget name="8bitmarkericonberlin" size="3.000000 3.000000" />
+    <ImageTarget name="markerbayern" size="3.000000 3.000000" />
+    <ImageTarget name="markerbawue" size="3.000000 3.000000" />
+    <ImageTarget name="markericonmecklenburg" size="3.000000 3.000000" />
+    <ImageTarget name="markericonbrandenburg" size="3.000000 3.000000" />
+    <ImageTarget name="markericonhessen" size="3.000000 3.000000" />
+    <ImageTarget name="markerniedersachsen" size="3.000000 3.000000" />
+    <ImageTarget name="markernordhein" size="3.000000 3.000000" />
+    <ImageTarget name="markersachsen" size="3.000000 3.000000" />
+    <ImageTarget name="markertuehringen" size="3.000000 3.000000" />
+    <ImageTarget name="markerrheinland" size="3.000000 3.000000" />
+    <ImageTarget name="markersachsenanhalt" size="3.000000 3.000000" />
+    <ImageTarget name="markerschlieswig" size="3.000000 3.000000" />
+    <ImageTarget name="markerbremen" size="3.000000 3.000000" />
+    <ImageTarget name="markersaarland" size="3.000000 3.000000" />
+    <ImageTarget name="markerberlin" size="3.000000 3.000000" />
   </Tracking>
 </QCARConfig>

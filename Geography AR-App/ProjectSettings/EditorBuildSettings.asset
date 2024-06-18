@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InformationsseitenMarker.unity
     guid: 39a9955725ebc2f49a2ece2571c3ae9a
+  - enabled: 1
+    path: Assets/Scenes/Informationen Fluesse.unity
+    guid: 0cb48e7febec5ff4a8b651dfef2261eb
+  - enabled: 1
+    path: Assets/Scenes/InformationFluesseMarker.unity
+    guid: 5f2c5a0fa56dadf46bc6bd7273349ea8
   m_configObjects: {}
