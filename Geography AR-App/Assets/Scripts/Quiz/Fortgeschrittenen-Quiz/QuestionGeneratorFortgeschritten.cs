@@ -34,14 +34,15 @@ public class QuestionGeneratorFortgeschritten : MonoBehaviour
     void Start()
     {
         // Füge die Fragen zur Liste hinzu
-        questions.Add(new Question("Durch welche Stadt fließt die Spree?", new string[] { "A. Hamburg", "B. München", "C. Berlin", "D. Kassel" }, "C"));
         questions.Add(new Question("Welches Bundesland ist bekannt für seine Weinanbaugebiete entlang des Rheins?", new string[] { "A. Schleswig-Holstein", "B. Bayern", "C. Rheinland-Pfalz", "D. Hessen" }, "C"));
         questions.Add(new Question("Welches Bundesland grenzt an Frankreich und der Schweiz?", new string[] { "A. Sachsen", "B. Baden-Württemberg", "C. Berlin", "D. Niedersachsen" }, "B"));
         questions.Add(new Question("Welches Bundesland hat die meisten UNESCO-Weltkulturerbestätten in Deutschland?", new string[] { "A. Bayern", "B. Sachsen", "C. Rheinland-Pfalz", "D. Nordrhein-Westfalen" }, "A"));
         questions.Add(new Question("Welches Bundesland wird auch als das Land der 1000 Seen bezeichnet?", new string[] { "A. Schleswig-Holstein", "B. Brandenburg", "C. Sachsen-Anhalt", "D. Mecklenburg-Vorpommern" }, "D"));
         questions.Add(new Question("In welchem Bundesland liegt die höchste Erhebung Deutschlands, die Zugspitze?", new string[] { "A. Baden-Württemberg", "B. Bayern", "C. Thüringen", "D. Sachsen" }, "B"));
         questions.Add(new Question("Welches Bundesland hat diese Flagge?", new string[] { "A. Bremen", "B. Hamburg", "C. Nordrhein-Westfalen", "D. Saarland" }, "A"));
-
+        questions.Add(new Question("Welches Bundesland hat den kleinsten Anteil an der Gesamtfläche Deutschlands?", new string[] { "A. Saarland", "B. Bremen", "C. Berlin", "D. Hamburg" }, "B"));
+        questions.Add(new Question("Welcher Fluss fließt durch Fulda und Kassel?", new string[] { "A. Rhein", "B. Donau", "C. Fulda", "D. Main" }, "C"));
+        questions.Add(new Question("In welchem Land entspringt die Donau?", new string[] { "A. Deutschland", "B. Österreich", "C. Schweiz", "D. Tschechien" }, "A"));
         // Mische die Fragen, um eine zufällige Reihenfolge zu erhalten
         ShuffleQuestions();
     }

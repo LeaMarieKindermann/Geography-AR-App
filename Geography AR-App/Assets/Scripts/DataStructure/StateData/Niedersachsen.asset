@@ -17,7 +17,8 @@ MonoBehaviour:
   location: Nordwesten
   area: "47.614 km\xB2"
   population: ca. 8 Millionen
-  sightseeingAttractions: "Niedersachsen ist ein vielf\xE4ltiges Bundesland mit einer
-    starken landwirtschaftlichen Tradition und bedeutender Automobilindustrie (VW)."
-  description: "Herrenh\xE4user G\xE4rten, Harz, Wattenmeer, Volkswagen Autostadt"
+  sightseeingAttractions: "Herrenh\xE4user G\xE4rten, Harz, Wattenmeer, Volkswagen
+    Autostadt"
+  description: "Niedersachsen ist ein vielf\xE4ltiges Bundesland mit einer starken
+    landwirtschaftlichen Tradition und bedeutender Automobilindustrie (VW)."
   flag: {fileID: 21300000, guid: 0cebe55477be2154a881e69e2503a315, type: 3}
