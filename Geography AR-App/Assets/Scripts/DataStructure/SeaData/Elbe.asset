@@ -19,4 +19,4 @@ MonoBehaviour:
   cities: Dresden, Magdeburg, Hamburg
   meaning: "Wichtige Wasserstra\xDFe, touristische Attraktionen wie die S\xE4chsische
     Schweiz und die Elbphilharmonie in Hamburg"
-  flag: {fileID: 21300000, guid: 3c31c8e9e9329e7459eac4940743a961, type: 3}
+  flag: {fileID: 21300000, guid: 2b4ea7cfc6a968248a74c77a2d3d4ba8, type: 3}
