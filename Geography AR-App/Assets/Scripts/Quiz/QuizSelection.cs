@@ -7,7 +7,7 @@ public class QuizSelection : MonoBehaviour
 {
     public void AnfaengerQuiz()
     {
-        SceneManager.LoadScene("Anf‰nger-Quiz");
+        SceneManager.LoadScene("Anf√§nger-Quiz");
     }
 
     public void FortgeschrittenenQuiz()

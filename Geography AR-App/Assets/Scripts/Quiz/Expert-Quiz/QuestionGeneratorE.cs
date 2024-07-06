@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class QuestionGenerator : MonoBehaviour
+public class QuestionGeneratorE : MonoBehaviour
 {
     public static string actualAnswer;
     public static bool displayingQuestion = false;
@@ -44,16 +44,16 @@ public class QuestionGenerator : MonoBehaviour
 
     void Start()
     {
-        // F�ge die Fragen zur Liste hinzu
-        questions.Add(new Question("Was ist die Hauptstadt von Hessen?", new string[] { "A. Frankfurt", "B. Darmstadt", "C. Wiesbaden", "D. Kassel" }, "C"));
-        questions.Add(new Question("Welches Bundesland hat die Inseln R�gen und Usedom?", new string[] { "A. Schleswig-Holstein", "B. Hamburg", "C. Mecklenburg-Vorpommern", "D. Niedersachsen" }, "C"));
-        questions.Add(new Question("Welches ist das gr��te Bundesland Deutschlands?", new string[] { "A. Nordrhein-Westfalen", "B. Baden-W�rttemberg", "C. Niedersachsen", "D. Bayern" }, "D"));
-        questions.Add(new Question("Wie viele Bundesl�nder hat Deutschland insgesamt?", new string[] { "A. 12", "B. 16", "C. 20", "D. 17" }, "B"));
-        questions.Add(new Question("In welchem Bundesland steht das Brandenburger Tor?", new string[] { "A. Brandenburg", "B. Berlin", "C. Niedersachsen", "D. Nordrhein-Westfalen" }, "B"));
-        questions.Add(new Question("Welches Bundesland wird hier dargestellt?", new string[] { "A. Sachsen", "B. Bremen", "C. Schleswig-Holstein", "D. Th�ringen" }, "D"));
-        questions.Add(new Question("Welches Bundesland ist bekannt f�r den K�lner Dom?", new string[] { "A. Hamburg", "B. Nordrhein-Westfalen", "C. Schleswig-Holstein", "D. Rheinland-Pfalz" }, "B"));
-        questions.Add(new Question("In welchem Bundesland liegt die Stadt Dresden?", new string[] { "A. Th�ringen", "B. Sachsen-Anhalt", "C. Sachsen", "D. Brandenburg" }, "C"));
-        questions.Add(new Question("Welches Bundesland hat Berlin als Hauptstadt?", new string[] { "A. Bayern", "B. Berlin", "C. Brandenburg", "D. Sachsen" }, "B"));
+        // F ge die Fragen zur Liste hinzu
+        questions.Add(new Question("Welches Bundesland beherbergt den Schwarzwald, eines der gr  ten Mittelgebirge Deutschlands?", new string[] { "A. Bayern", "B. Baden-W rttemberg", "C. Niedersachsen", "D. Sachsen" }, "B"));
+        questions.Add(new Question("Welches Bundesland hat die meisten Einwohner?", new string[] { "A. Bayern", "B. Nordrhein-Westfalen", "C. Baden-W rttemberg", "D. Hessen" }, "B"));
+        questions.Add(new Question("Welches Bundesland grenzt nicht an das Ausland?", new string[] { "A. Bayern", "B. Saarland", "C. Brandenburg", "D. Niedersachsen" }, "D"));
+        questions.Add(new Question("Welches Bundesland ist f r seine vielf ltige Automobilindustrie bekannt, unter anderem mit Standorten wie Wolfsburg und Stuttgart?", new string[] { "A. Bayern", "B. Niedersachsen", "C. Baden-W rttemberg", "D. Nordrhein-Westfalen" }, "C"));
+        questions.Add(new Question("Welches von den unten erw hnten Staaten ist ein Sadtstaat?", new string[] { "A. Bremen", "B. Sachsen", "C. Niedersachsen", "D. Nordrhein-Westfalen" }, "A"));
+        questions.Add(new Question("In welchem Bundesland liegt der Harz, ein Mittelgebirge bekannt f r seine reiche Bergbauhistorie und seine beeindruckende Natur?", new string[] { "A. Niedersachsen", "B. Nordrhein-Westfalen", "C. Hessen", "D. Sachsen-Anhalt" }, "D"));
+        questions.Add(new Question("Welcher Fluss flie t durch die St dte Dresden, Magdeburg und Hamburg?", new string[] { "A. Rhein", "B. Donau", "C. Elbe", "D. Main" }, "C"));
+        questions.Add(new Question("Welcher Fluss ist der l ngste innerhalb Deutschlands?", new string[] { "A. Rhein", "B. Donau", "C. Elbe", "D. Main" }, "B"));
+        questions.Add(new Question("In welchem Bundesland liegt die V lklinger H tte, die erste industrielle Kulturst tte, die von der UNESCO zum Weltkulturerbe erkl rt wurde?", new string[] { "A. Saarland", "B. Nordrhein-Westfalen", "C. Sachsen-Anhalt", "D. Rheinland-Pfalz" }, "A"));
 
         // Mische die Fragen, um eine zuf�llige Reihenfolge zu erhalten
         ShuffleQuestions();
@@ -94,11 +94,11 @@ public class QuestionGenerator : MonoBehaviour
     {
         displayingQuestion = true;
         Question currentQuestion = questions[currentQuestionIndex];
-        QuestionDisplay.newQuestion = currentQuestion.question;
-        QuestionDisplay.newA = currentQuestion.options[0];
-        QuestionDisplay.newB = currentQuestion.options[1];
-        QuestionDisplay.newC = currentQuestion.options[2];
-        QuestionDisplay.newD = currentQuestion.options[3];
+        QuestionDisplayE.newQuestion = currentQuestion.question;
+        QuestionDisplayE.newA = currentQuestion.options[0];
+        QuestionDisplayE.newB = currentQuestion.options[1];
+        QuestionDisplayE.newC = currentQuestion.options[2];
+        QuestionDisplayE.newD = currentQuestion.options[3];
         actualAnswer = currentQuestion.answer;
         currentQuestionIndex++;
 
@@ -112,7 +112,7 @@ public class QuestionGenerator : MonoBehaviour
             visual01.SetActive(false);
         }
 
-        QuestionDisplay.pleaseUpdate = false;
+        QuestionDisplayE.pleaseUpdate = false;
     }
 
 

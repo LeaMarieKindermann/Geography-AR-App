@@ -11,9 +11,9 @@ public class AnswerButtons : MonoBehaviour
     public GameObject answerButtonC;
     public GameObject answerButtonD;
 
-    public Sprite blueImage; // Bild für den normalen Zustand (blau)
-    public Sprite greenImage; // Bild für den korrekten Zustand (grün)
-    public Sprite redImage; // Bild für den falschen Zustand (rot)
+    public Sprite blueImage; // Bild fï¿½r den normalen Zustand (blau)
+    public Sprite greenImage; // Bild fï¿½r den korrekten Zustand (grï¿½n)
+    public Sprite redImage; // Bild fï¿½r den falschen Zustand (rot)
 
     public GameObject answerA;
     public GameObject answerB;
@@ -30,7 +30,7 @@ public class AnswerButtons : MonoBehaviour
 
     public GameObject visual01;
 
-    // Parameter für Quiz-ID
+    // Parameter fï¿½r Quiz-ID
     public int quizID;
 
     // Sterne UI
@@ -38,12 +38,12 @@ public class AnswerButtons : MonoBehaviour
     public Image star2;
     public Image star3;
 
-    public Sprite filledStar; // Gefüllter Stern
+    public Sprite filledStar; // Gefï¿½llter Stern
     public Sprite emptyStar; // Leerer Stern
 
     void Start()
     {
-        // Verwende den Parameter für den PlayerPrefs-Schlüssel
+        // Verwende den Parameter fï¿½r den PlayerPrefs-Schlï¿½ssel
         bestScore = PlayerPrefs.GetInt("BestScoreQuiz" + quizID);
         bestDisplay.text = "Best: " + bestScore;
         UpdateStarDisplay(bestScore);
@@ -54,13 +54,13 @@ public class AnswerButtons : MonoBehaviour
         currentScore.text = "Score: " + scoreValue;
     }
 
-    // Diese Methode wird aufgerufen, wenn der Button gedrückt wird
+    // Diese Methode wird aufgerufen, wenn der Button gedrï¿½ckt wird
     public void AnswerA()
     {
-        // Überprüfe, ob die Antwort korrekt ist
+        // ï¿½berprï¿½fe, ob die Antwort korrekt ist
         if (QuestionGenerator.actualAnswer == "A")
         {
-            // Setze das Bild auf grün (korrekt)
+            // Setze das Bild auf grï¿½n (korrekt)
             answerButtonA.GetComponent<Image>().sprite = greenImage;
             correctFX.Play();
             scoreValue += 5;
@@ -76,10 +76,10 @@ public class AnswerButtons : MonoBehaviour
 
     public void AnswerB()
     {
-        // Überprüfe, ob die Antwort korrekt ist
+        // ï¿½berprï¿½fe, ob die Antwort korrekt ist
         if (QuestionGenerator.actualAnswer == "B")
         {
-            // Setze das Bild auf grün (korrekt)
+            // Setze das Bild auf grï¿½n (korrekt)
             answerButtonB.GetComponent<Image>().sprite = greenImage;
             correctFX.Play();
             scoreValue += 5;
@@ -95,10 +95,10 @@ public class AnswerButtons : MonoBehaviour
 
     public void AnswerC()
     {
-        // Überprüfe, ob die Antwort korrekt ist
+        // ï¿½berprï¿½fe, ob die Antwort korrekt ist
         if (QuestionGenerator.actualAnswer == "C")
         {
-            // Setze das Bild auf grün (korrekt)
+            // Setze das Bild auf grï¿½n (korrekt)
             answerButtonC.GetComponent<Image>().sprite = greenImage;
             correctFX.Play();
             scoreValue += 5;
@@ -114,10 +114,10 @@ public class AnswerButtons : MonoBehaviour
 
     public void AnswerD()
     {
-        // Überprüfe, ob die Antwort korrekt ist
+        // ï¿½berprï¿½fe, ob die Antwort korrekt ist
         if (QuestionGenerator.actualAnswer == "D")
         {
-            // Setze das Bild auf grün (korrekt)
+            // Setze das Bild auf grï¿½n (korrekt)
             answerButtonD.GetComponent<Image>().sprite = greenImage;
             correctFX.Play();
             scoreValue += 5;
@@ -182,15 +182,15 @@ public class AnswerButtons : MonoBehaviour
         star3.sprite = emptyStar;
 
         // Vergib Sterne basierend auf dem Score
-        if (score >= 15)
+        if (score >= 10)
         {
             star1.sprite = filledStar;
         }
-        if (score >= 30)
+        if (score >= 25)
         {
             star2.sprite = filledStar;
         }
-        if (score >= 40)
+        if (score >= 45)
         {
             star3.sprite = filledStar;
         }

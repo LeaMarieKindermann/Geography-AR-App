@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class QuestionDisplayExperten : MonoBehaviour
+public class QuestionDisplayE : MonoBehaviour
 {
     // Text-Objects for questions and answers
     public TextMeshProUGUI screenQuestion;

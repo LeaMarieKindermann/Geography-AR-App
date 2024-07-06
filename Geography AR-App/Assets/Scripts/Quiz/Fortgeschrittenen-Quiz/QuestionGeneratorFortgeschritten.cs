@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuestionGeneratorFortgeschritten : MonoBehaviour
 {
@@ -10,7 +11,17 @@ public class QuestionGeneratorFortgeschritten : MonoBehaviour
     // Eine Liste, um die Fragen zu speichern
     private List<Question> questions = new List<Question>();
 
-    // Eine Klasse, um die Frage, die Antwortmöglichkeiten und die richtige Antwort zu speichern
+    public GameObject Cbutton; 
+
+    public GameObject Dbutton; 
+
+    public GameObject Abutton; 
+
+    public GameObject Bbutton; 
+
+    public GameObject Menubutton; 
+
+    // Eine Klasse, um die Frage, die Antwortmï¿½glichkeiten und die richtige Antwort zu speichern
     private class Question
     {
         public string question;
@@ -33,26 +44,26 @@ public class QuestionGeneratorFortgeschritten : MonoBehaviour
 
     void Start()
     {
-        // Füge die Fragen zur Liste hinzu
-        questions.Add(new Question("Welches Bundesland ist bekannt für seine Weinanbaugebiete entlang des Rheins?", new string[] { "A. Schleswig-Holstein", "B. Bayern", "C. Rheinland-Pfalz", "D. Hessen" }, "C"));
-        questions.Add(new Question("Welches Bundesland grenzt an Frankreich und der Schweiz?", new string[] { "A. Sachsen", "B. Baden-Württemberg", "C. Berlin", "D. Niedersachsen" }, "B"));
-        questions.Add(new Question("Welches Bundesland hat die meisten UNESCO-Weltkulturerbestätten in Deutschland?", new string[] { "A. Bayern", "B. Sachsen", "C. Rheinland-Pfalz", "D. Nordrhein-Westfalen" }, "A"));
+        // Fï¿½ge die Fragen zur Liste hinzu
+        questions.Add(new Question("Welches Bundesland ist bekannt fï¿½r seine Weinanbaugebiete entlang des Rheins?", new string[] { "A. Schleswig-Holstein", "B. Bayern", "C. Rheinland-Pfalz", "D. Hessen" }, "C"));
+        questions.Add(new Question("Welches Bundesland grenzt an Frankreich und der Schweiz?", new string[] { "A. Sachsen", "B. Baden-Wï¿½rttemberg", "C. Berlin", "D. Niedersachsen" }, "B"));
+        questions.Add(new Question("Welches Bundesland hat die meisten UNESCO-Weltkulturerbestï¿½tten in Deutschland?", new string[] { "A. Bayern", "B. Sachsen", "C. Rheinland-Pfalz", "D. Nordrhein-Westfalen" }, "A"));
         questions.Add(new Question("Welches Bundesland wird auch als das Land der 1000 Seen bezeichnet?", new string[] { "A. Schleswig-Holstein", "B. Brandenburg", "C. Sachsen-Anhalt", "D. Mecklenburg-Vorpommern" }, "D"));
-        questions.Add(new Question("In welchem Bundesland liegt die höchste Erhebung Deutschlands, die Zugspitze?", new string[] { "A. Baden-Württemberg", "B. Bayern", "C. Thüringen", "D. Sachsen" }, "B"));
+        questions.Add(new Question("In welchem Bundesland liegt die hï¿½chste Erhebung Deutschlands, die Zugspitze?", new string[] { "A. Baden-Wï¿½rttemberg", "B. Bayern", "C. Thï¿½ringen", "D. Sachsen" }, "B"));
         questions.Add(new Question("Welches Bundesland hat diese Flagge?", new string[] { "A. Bremen", "B. Hamburg", "C. Nordrhein-Westfalen", "D. Saarland" }, "A"));
-        questions.Add(new Question("Welches Bundesland hat den kleinsten Anteil an der Gesamtfläche Deutschlands?", new string[] { "A. Saarland", "B. Bremen", "C. Berlin", "D. Hamburg" }, "B"));
-        questions.Add(new Question("Welcher Fluss fließt durch Fulda und Kassel?", new string[] { "A. Rhein", "B. Donau", "C. Fulda", "D. Main" }, "C"));
-        questions.Add(new Question("In welchem Land entspringt die Donau?", new string[] { "A. Deutschland", "B. Österreich", "C. Schweiz", "D. Tschechien" }, "A"));
-        // Mische die Fragen, um eine zufällige Reihenfolge zu erhalten
+        questions.Add(new Question("Welches Bundesland hat den kleinsten Anteil an der Gesamtflï¿½che Deutschlands?", new string[] { "A. Saarland", "B. Bremen", "C. Berlin", "D. Hamburg" }, "B"));
+        questions.Add(new Question("Welcher Fluss flieï¿½t durch Fulda und Kassel?", new string[] { "A. Rhein", "B. Donau", "C. Fulda", "D. Main" }, "C"));
+        questions.Add(new Question("In welchem Land entspringt die Donau?", new string[] { "A. Deutschland", "B. ï¿½sterreich", "C. Schweiz", "D. Tschechien" }, "A"));
+        // Mische die Fragen, um eine zufï¿½llige Reihenfolge zu erhalten
         ShuffleQuestions();
     }
 
     void Update()
     {
-        // Überprüfe, ob alle Fragen beantwortet wurden
+        // ï¿½berprï¿½fe, ob alle Fragen beantwortet wurden
         if (currentQuestionIndex < questions.Count)
         {
-            // Zeige die nächste Frage an, wenn keine Frage angezeigt wird
+            // Zeige die nï¿½chste Frage an, wenn keine Frage angezeigt wird
             if (!displayingQuestion)
             {
                 DisplayNextQuestion();
@@ -77,7 +88,7 @@ public class QuestionGeneratorFortgeschritten : MonoBehaviour
         }
     }
 
-    // Methode, um die nächste Frage anzuzeigen
+    // Methode, um die nï¿½chste Frage anzuzeigen
     void DisplayNextQuestion()
     {
         displayingQuestion = true;
@@ -90,7 +101,7 @@ public class QuestionGeneratorFortgeschritten : MonoBehaviour
         actualAnswer = currentQuestion.answer;
         currentQuestionIndex++;
 
-        // Prüfe, ob es sich um die Frage "Welches Bundesland wird hier dargestellt?" handelt
+        // Prï¿½fe, ob es sich um die Frage "Welches Bundesland wird hier dargestellt?" handelt
         if (currentQuestion.question == "Welches Bundesland hat diese Flagge?")
         {
             visual01.SetActive(true);
@@ -108,14 +119,26 @@ public class QuestionGeneratorFortgeschritten : MonoBehaviour
     void EndQuiz()
     {
         endQuizPopup.SetActive(true);
+        Menubutton.GetComponent<Button>().interactable = false;
+        Cbutton.GetComponent<Button>().interactable = false;
+        Dbutton.GetComponent<Button>().interactable = false;
+        Abutton.GetComponent<Button>().interactable = false;
+        Bbutton.GetComponent<Button>().interactable = false;
     }
 
     public void RestartQuiz()
     {
-        // Setze statische Variablen zurück
+        Debug.Log("SETZE ZURUECK!!!");
+        // Setze statische Variablen zurï¿½ck
         actualAnswer = null;
         displayingQuestion = false;
         currentQuestionIndex = 0;
+        Debug.Log("SETZE ZURUECK VORBEI!!!");
+
+        // Debug.Log Anweisungen um die Werte auszugeben
+        Debug.Log("actualAnswer: " + actualAnswer);
+        Debug.Log("displayingQuestion: " + displayingQuestion);
+        Debug.Log("currentQuestionIndex: " + currentQuestionIndex);
 
     }
 }
