@@ -45,24 +45,28 @@ public class QuestionGeneratorE : MonoBehaviour
     void Start()
     {
         // F ge die Fragen zur Liste hinzu
-        questions.Add(new Question("Welches Bundesland beherbergt den Schwarzwald, eines der gr  ten Mittelgebirge Deutschlands?", new string[] { "A. Bayern", "B. Baden-W rttemberg", "C. Niedersachsen", "D. Sachsen" }, "B"));
-        questions.Add(new Question("Welches Bundesland hat die meisten Einwohner?", new string[] { "A. Bayern", "B. Nordrhein-Westfalen", "C. Baden-W rttemberg", "D. Hessen" }, "B"));
-        questions.Add(new Question("Welches Bundesland grenzt nicht an das Ausland?", new string[] { "A. Bayern", "B. Saarland", "C. Brandenburg", "D. Niedersachsen" }, "D"));
-        questions.Add(new Question("Welches Bundesland ist f r seine vielf ltige Automobilindustrie bekannt, unter anderem mit Standorten wie Wolfsburg und Stuttgart?", new string[] { "A. Bayern", "B. Niedersachsen", "C. Baden-W rttemberg", "D. Nordrhein-Westfalen" }, "C"));
+        questions.Add(new Question("Welches Bundesland beherbergt den Schwarzwald, eines der größten Mittelgebirge Deutschlands?", new string[] { "A. Bayern", "B. Baden-Württemberg", "C. Niedersachsen", "D. Sachsen" }, "B"));
+        questions.Add(new Question("Welches Bundesland hat die meisten Einwohner?", new string[] { "A. Bayern", "B. Nordrhein-Westfalen", "C. Baden-Württemberg", "D. Hessen" }, "B"));
+        questions.Add(new Question("Welches Bundesland grenzt nicht an das Ausland?", new string[] { "A. Bayern", "B. Saarland", "C. Brandenburg", "D. Sachsen-Anhalt" }, "D"));
+        questions.Add(new Question("Welches Bundesland ist für seine vielf ltige Automobilindustrie bekannt, unter anderem mit Standorten wie Wolfsburg und Stuttgart?", new string[] { "A. Bayern", "B. Niedersachsen", "C. Baden-Württemberg", "D. Nordrhein-Westfalen" }, "C"));
         questions.Add(new Question("Welches von den unten erw hnten Staaten ist ein Sadtstaat?", new string[] { "A. Bremen", "B. Sachsen", "C. Niedersachsen", "D. Nordrhein-Westfalen" }, "A"));
-        questions.Add(new Question("In welchem Bundesland liegt der Harz, ein Mittelgebirge bekannt f r seine reiche Bergbauhistorie und seine beeindruckende Natur?", new string[] { "A. Niedersachsen", "B. Nordrhein-Westfalen", "C. Hessen", "D. Sachsen-Anhalt" }, "D"));
-        questions.Add(new Question("Welcher Fluss flie t durch die St dte Dresden, Magdeburg und Hamburg?", new string[] { "A. Rhein", "B. Donau", "C. Elbe", "D. Main" }, "C"));
-        questions.Add(new Question("Welcher Fluss ist der l ngste innerhalb Deutschlands?", new string[] { "A. Rhein", "B. Donau", "C. Elbe", "D. Main" }, "B"));
-        questions.Add(new Question("In welchem Bundesland liegt die V lklinger H tte, die erste industrielle Kulturst tte, die von der UNESCO zum Weltkulturerbe erkl rt wurde?", new string[] { "A. Saarland", "B. Nordrhein-Westfalen", "C. Sachsen-Anhalt", "D. Rheinland-Pfalz" }, "A"));
+        questions.Add(new Question("In welchem Bundesland liegt der Harz, ein Mittelgebirge bekannt für seine reiche Bergbauhistorie und seine beeindruckende Natur?", new string[] { "A. Niedersachsen", "B. Nordrhein-Westfalen", "C. Hessen", "D. Sachsen-Anhalt" }, "D"));
+        questions.Add(new Question("Welcher Fluss fließt durch die St dte Dresden, Magdeburg und Hamburg?", new string[] { "A. Rhein", "B. Donau", "C. Elbe", "D. Main" }, "C"));
+        questions.Add(new Question("Welcher Fluss ist der längste innerhalb Deutschlands?", new string[] { "A. Rhein", "B. Donau", "C. Elbe", "D. Main" }, "B"));
+        questions.Add(new Question("In welchem Bundesland liegt die Völklinger Hütte, die erste industrielle Kulturstätte, die von der UNESCO zum Weltkulturerbe erklärt wurde?", new string[] { "A. Saarland", "B. Nordrhein-Westfalen", "C. Sachsen-Anhalt", "D. Rheinland-Pfalz" }, "A"));
+        questions.Add(new Question("Welches deutsche Bundesland hat die niedrigste Bevölkerungsdichte?", new string[] { "A. Bayern", "B. Schlieswig-Holstein", "C. Brandenburg", "D. Mecklenburg-Vorpommern" }, "D"));
+        questions.Add(new Question("Welcher Fluss wird hier dargestellt?", new string[] { "A. Rhein", "B. Donau", "C. Fulda", "D. Main" }, "C"));
+        questions.Add(new Question("In welchem Bundesland steht die berühmte Frauenkirche?", new string[] { "A. Sachsen", "B. Sachsen-Anhalt", "C. Berlin", "D. Hessen" }, "A"));
 
         // Mische die Fragen, um eine zuf�llige Reihenfolge zu erhalten
         ShuffleQuestions();
+        DisplayNextQuestion();
     }
 
     void Update()
     {
         // �berpr�fe, ob alle Fragen beantwortet wurden
-        if (currentQuestionIndex < questions.Count)
+        if (currentQuestionIndex < 10)
         {
             // Zeige die n�chste Frage an, wenn keine Frage angezeigt wird
             if (!displayingQuestion)
@@ -100,10 +104,9 @@ public class QuestionGeneratorE : MonoBehaviour
         QuestionDisplayE.newC = currentQuestion.options[2];
         QuestionDisplayE.newD = currentQuestion.options[3];
         actualAnswer = currentQuestion.answer;
-        currentQuestionIndex++;
 
         // Pr�fe, ob es sich um die Frage "Welches Bundesland wird hier dargestellt?" handelt
-        if (currentQuestion.question == "Welches Bundesland wird hier dargestellt?")
+        if (currentQuestion.question == "Welcher Fluss wird hier dargestellt?")
         {
             visual01.SetActive(true);
         }
@@ -113,6 +116,7 @@ public class QuestionGeneratorE : MonoBehaviour
         }
 
         QuestionDisplayE.pleaseUpdate = false;
+        currentQuestionIndex++;
     }
 
 
@@ -132,6 +136,5 @@ public class QuestionGeneratorE : MonoBehaviour
         // Setze statische Variablen zurück
         actualAnswer = null;
         displayingQuestion = false;
-        currentQuestionIndex = 0;
     }
 }

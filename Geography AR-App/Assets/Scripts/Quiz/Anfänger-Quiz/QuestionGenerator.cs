@@ -44,25 +44,31 @@ public class QuestionGenerator : MonoBehaviour
 
     void Start()
     {
-        // F�ge die Fragen zur Liste hinzu
-        questions.Add(new Question("Was ist die Hauptstadt von Hessen?", new string[] { "A. Frankfurt", "B. Darmstadt", "C. Wiesbaden", "D. Kassel" }, "C"));
-        questions.Add(new Question("Welches Bundesland hat die Inseln R�gen und Usedom?", new string[] { "A. Schleswig-Holstein", "B. Hamburg", "C. Mecklenburg-Vorpommern", "D. Niedersachsen" }, "C"));
-        questions.Add(new Question("Welches ist das gr��te Bundesland Deutschlands?", new string[] { "A. Nordrhein-Westfalen", "B. Baden-W�rttemberg", "C. Niedersachsen", "D. Bayern" }, "D"));
-        questions.Add(new Question("Wie viele Bundesl�nder hat Deutschland insgesamt?", new string[] { "A. 12", "B. 16", "C. 20", "D. 17" }, "B"));
-        questions.Add(new Question("In welchem Bundesland steht das Brandenburger Tor?", new string[] { "A. Brandenburg", "B. Berlin", "C. Niedersachsen", "D. Nordrhein-Westfalen" }, "B"));
-        questions.Add(new Question("Welches Bundesland wird hier dargestellt?", new string[] { "A. Sachsen", "B. Bremen", "C. Schleswig-Holstein", "D. Th�ringen" }, "D"));
-        questions.Add(new Question("Welches Bundesland ist bekannt f�r den K�lner Dom?", new string[] { "A. Hamburg", "B. Nordrhein-Westfalen", "C. Schleswig-Holstein", "D. Rheinland-Pfalz" }, "B"));
-        questions.Add(new Question("In welchem Bundesland liegt die Stadt Dresden?", new string[] { "A. Th�ringen", "B. Sachsen-Anhalt", "C. Sachsen", "D. Brandenburg" }, "C"));
-        questions.Add(new Question("Welches Bundesland hat Berlin als Hauptstadt?", new string[] { "A. Bayern", "B. Berlin", "C. Brandenburg", "D. Sachsen" }, "B"));
 
-        // Mische die Fragen, um eine zuf�llige Reihenfolge zu erhalten
+        // F ge die Fragen zur Liste hinzu
+        questions.Add(new Question("Was ist die Hauptstadt von Hessen?", new string[] { "A. Frankfurt", "B. Darmstadt", "C. Wiesbaden", "D. Kassel" }, "C"));
+        questions.Add(new Question("Welches Bundesland hat die Inseln Rügen und Usedom?", new string[] { "A. Schleswig-Holstein", "B. Hamburg", "C. Mecklenburg-Vorpommern", "D. Niedersachsen" }, "C"));
+        questions.Add(new Question("Welches ist das größte Bundesland Deutschlands?", new string[] { "A. Nordrhein-Westfalen", "B. Baden-Württemberg", "C. Niedersachsen", "D. Bayern" }, "D"));
+        questions.Add(new Question("Wie viele Bundesländer hat Deutschland insgesamt?", new string[] { "A. 12", "B. 16", "C. 20", "D. 17" }, "B"));
+        questions.Add(new Question("In welchem Bundesland steht das Brandenburger Tor?", new string[] { "A. Brandenburg", "B. Berlin", "C. Niedersachsen", "D. Nordrhein-Westfalen" }, "B"));
+        questions.Add(new Question("Welches Bundesland wird hier dargestellt?", new string[] { "A. Sachsen", "B. Bremen", "C. Schleswig-Holstein", "D. Thüringen" }, "D"));
+        questions.Add(new Question("Welches Bundesland ist bekannt für den Kölner Dom?", new string[] { "A. Hamburg", "B. Nordrhein-Westfalen", "C. Schleswig-Holstein", "D. Rheinland-Pfalz" }, "B"));
+        questions.Add(new Question("In welchem Bundesland liegt die Stadt Dresden?", new string[] { "A. Thüringen", "B. Sachsen-Anhalt", "C. Sachsen", "D. Brandenburg" }, "C"));
+        questions.Add(new Question("Welches Bundesland hat Berlin als Hauptstadt?", new string[] { "A. Bayern", "B. Berlin", "C. Brandenburg", "D. Sachsen" }, "B"));
+        questions.Add(new Question("Welches Bundeland liegt unten links auf der Karte?", new string[] { "A. Baden-Württemberg", "B. Bayern", "C. Saarland", "D. Schleswig-Holstein" }, "A"));
+        questions.Add(new Question("Welche Stadt ist die Hauptstadt von Deutschland?", new string[] { "A. Stuttgart", "B. Frankfurt", "C. Berlin", "D. Bremen" }, "C"));
+        questions.Add(new Question("Welches Land grenzt nicht an Deutschland?", new string[] { "A. Schweiz", "B. Niederlande", "C. Belgien", "D. Italien" }, "D"));
+
+        // Mische die Fragen, um eine zuf llige Reihenfolge zu erhalten
         ShuffleQuestions();
+        DisplayNextQuestion();
     }
+
 
     void Update()
     {
         // �berpr�fe, ob alle Fragen beantwortet wurden
-        if (currentQuestionIndex < questions.Count)
+        if (currentQuestionIndex < 10)
         {
             // Zeige die n�chste Frage an, wenn keine Frage angezeigt wird
             if (!displayingQuestion)
@@ -100,7 +106,6 @@ public class QuestionGenerator : MonoBehaviour
         QuestionDisplay.newC = currentQuestion.options[2];
         QuestionDisplay.newD = currentQuestion.options[3];
         actualAnswer = currentQuestion.answer;
-        currentQuestionIndex++;
 
         // Pr�fe, ob es sich um die Frage "Welches Bundesland wird hier dargestellt?" handelt
         if (currentQuestion.question == "Welches Bundesland wird hier dargestellt?")
@@ -113,6 +118,7 @@ public class QuestionGenerator : MonoBehaviour
         }
 
         QuestionDisplay.pleaseUpdate = false;
+        currentQuestionIndex++;
     }
 
 
@@ -132,6 +138,5 @@ public class QuestionGenerator : MonoBehaviour
         // Setze statische Variablen zurück
         actualAnswer = null;
         displayingQuestion = false;
-        currentQuestionIndex = 0;
     }
 }

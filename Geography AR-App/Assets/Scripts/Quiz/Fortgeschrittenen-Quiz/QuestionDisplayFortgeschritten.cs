@@ -26,7 +26,6 @@ public class QuestionDisplayFortgeschritten : MonoBehaviour
     {
         if (pleaseUpdate == false)
         {
-            Debug.Log("False, also push Text on screen");
             pleaseUpdate = true; 
             StartCoroutine(PushTextOnScreen());
         }
@@ -35,7 +34,6 @@ public class QuestionDisplayFortgeschritten : MonoBehaviour
     IEnumerator PushTextOnScreen()
     {
         yield return new WaitForSeconds(0.25f);
-        Debug.Log("ZEIGE FRAGE");
         screenQuestion.text = newQuestion;
         answerA.text = newA;
         answerB.text = newB;
