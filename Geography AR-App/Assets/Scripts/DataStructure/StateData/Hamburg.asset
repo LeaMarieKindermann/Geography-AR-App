@@ -15,10 +15,12 @@ MonoBehaviour:
   stateName: Hamburg
   cityName: Hamburg (Stadtstaat)
   location: Norddeutschland
-  area: "755 km\xB2"
-  population: ca. 1.8 Millionen
+  area: "755,09 km\xB2"
+  population: ca. 1.91 Millionen
   sightseeingAttractions: Hafen Hamburg, Elbphilharmonie, Speicherstadt, Miniatur
     Wunderland, Fischmarkt
-  description: "Hamburg ist eine wichtige Hafenstadt, bekannt f\xFCr ihre Musicals,
-    die Reeperbahn und ihre beeindruckende Architektur."
+  description: "Hamburg ist eine wichtige Hafenstadt mit einer reichen Geschichte
+    als Handelszentrum. Die Elbphilharmonie, ein architektonisches Meisterwerk, sowie
+    die historischen Kontorh\xE4user und die modernen Geb\xE4ude an der HafenCity
+    zeigen die beeindruckende Architekturvielfalt der Stadt."
   flag: {fileID: 21300000, guid: 3e3359b6f91b0f4429cd92645a6eaba5, type: 3}

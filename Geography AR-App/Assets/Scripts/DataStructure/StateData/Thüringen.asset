@@ -15,10 +15,12 @@ MonoBehaviour:
   stateName: "Th\xFCringen"
   cityName: Erfurt
   location: Mitteldeutschland
-  area: "16.172 km\xB2"
-  population: ca. 2.1 Millionen
+  area: "16.202,33 km\xB2"
+  population: ca. 2.12 Millionen
   sightseeingAttractions: "Wartburg, Erfurter Dom, Bauhaus-Museum Weimar, Th\xFCringer
     Wald"
-  description: "Th\xFCringen ist ber\xFChmt f\xFCr die Weimarer Klassik, Lutherst\xE4tten,
-    den Th\xFCringer Wald und auch G\xF6the und Schiller"
+  description: "Th\xFCringen ist bekannt f\xFCr seine reiche kulturelle und historische
+    Bedeutung, insbesondere die Weimarer Klassik mit Goethe und Schiller. Die Region
+    ist auch reich an Lutherst\xE4tten wie Eisenach und bietet mit dem Th\xFCringer
+    Wald eine malerische Landschaft und historische St\xE4dte wie Oberhof."
   flag: {fileID: 21300000, guid: 749efffe5ef0dc749aad6d7f1a3fa98a, type: 3}

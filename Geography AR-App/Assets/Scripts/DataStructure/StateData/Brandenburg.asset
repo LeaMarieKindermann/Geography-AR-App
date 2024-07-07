@@ -15,10 +15,13 @@ MonoBehaviour:
   stateName: Brandenburg
   cityName: Potsdam
   location: "Nordosten, umschlie\xDFt Berlin "
-  area: "29.654 km\xB2"
-  population: ca. 2.5 Millionen
+  area: "29.654,16 km\xB2"
+  population: ca. 2.58 Millionen
   sightseeingAttractions: Schloss Sanssouci, Babelsberg Filmpark, Spreewald, Potsdamer
     Platz
-  description: "Brandenburg ist bekannt f\xFCr seine Schl\xF6sser und G\xE4rten,
-    insbesondere in Potsdam, sowie f\xFCr seine zahlreichen Seen und W\xE4lder."
+  description: "Brandenburg, das an die Hauptstadt Berlin grenzt, bietet nicht nur
+    eine reiche historische Architektur in Potsdam, sondern auch eine landschaftliche
+    Vielfalt mit ausgedehnten W\xE4ldern und Seen, die ideal f\xFCr Outdoor-Aktivit\xE4ten
+    sind. Die Region ist ein beliebtes Ziel f\xFCr Erholungssuchende und Geschichtsinteressierte
+    gleicherma\xDFen."
   flag: {fileID: 21300000, guid: a776e3831968c234196ed2608647bf3f, type: 3}

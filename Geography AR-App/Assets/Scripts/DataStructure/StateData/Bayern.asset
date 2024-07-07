@@ -15,10 +15,12 @@ MonoBehaviour:
   stateName: Bayern
   cityName: "M\xFCnchen"
   location: "S\xFCdosten"
-  area: "70.550 km\xB2"
-  population: ca. 13 Millionen
+  area: "70.541,57 km\xB2"
+  population: ca. 13.43 Millionen
   sightseeingAttractions: "Schloss Neuschwanstein, Marienplatz und Frauenkirche in
     M\xFCnchen, Zugspitze, N\xFCrnberger Burg"
   description: "Bayern ist bekannt f\xFCr das Oktoberfest, seine bayerische Kultur
-    und Traditionen sowie die Alpen. Es hat eine reiche Bierbrautradition."
+    und Traditionen sowie die Alpen. Es hat eine reiche Bierbrautradition. Zudem
+    hat Bayern die meisten UNESCO-Welterbest\xE4tten in Deutschland, darunter die
+    W\xFCrzburger Residenz, den Wieskirche und die Altstadt von Regensburg."
   flag: {fileID: 21300000, guid: acdcf8c429533ba4fa1dc7d64e5b58dc, type: 3}

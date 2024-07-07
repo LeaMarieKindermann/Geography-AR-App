@@ -15,10 +15,13 @@ MonoBehaviour:
   stateName: Berlin
   cityName: Berlin
   location: Nordosten
-  area: "891 km\xB2"
-  population: ca. 3.7 Millionen
+  area: "891,7 km\xB2"
+  population: ca. 3.78 Millionen
   sightseeingAttractions: Brandenburger Tor, Reichstag, Berliner Mauer, Museumsinsel,
     Alexanderplatz
-  description: "Berlin, die Hauptstadt Deutschlands, ist bekannt f\xFCr sein Regierungsviertel,
-    seine reiche Geschichte und seine multikulturelle Szene."
+  description: "Berlin, als Hauptstadt Deutschlands, ist nicht nur ein politisches
+    Zentrum, sondern auch eine pulsierende Metropole mit einer lebendigen Kunst-
+    und Kulturszene. Die Stadt ist bekannt f\xFCr ihre ikonischen Wahrzeichen wie
+    den Berliner Fernsehturm und das Brandenburger Tor sowie f\xFCr ihre bedeutenden
+    Museen, Theater und Galerien."
   flag: {fileID: 21300000, guid: 916f3a3a2b074594f9dad01b1c395d04, type: 3}

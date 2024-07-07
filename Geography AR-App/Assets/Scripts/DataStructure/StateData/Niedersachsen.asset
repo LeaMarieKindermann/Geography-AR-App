@@ -15,10 +15,12 @@ MonoBehaviour:
   stateName: Niedersachsen
   cityName: Hannover
   location: Nordwesten
-  area: "47.614 km\xB2"
-  population: ca. 8 Millionen
+  area: "47.709,82 km\xB2"
+  population: ca. 8.1 Millionen
   sightseeingAttractions: "Herrenh\xE4user G\xE4rten, Harz, Wattenmeer, Volkswagen
     Autostadt"
-  description: "Niedersachsen ist ein vielf\xE4ltiges Bundesland mit einer starken
-    landwirtschaftlichen Tradition und bedeutender Automobilindustrie (VW)."
+  description: "Niedersachsen ist bekannt f\xFCr seine starke landwirtschaftliche
+    Tradition sowie f\xFCr seine bedeutende Rolle in der Automobilindustrie, insbesondere
+    durch das Volkswagen-Stammwerk in Wolfsburg, dem gr\xF6\xDFten Automobilwerk
+    Europas."
   flag: {fileID: 21300000, guid: 0cebe55477be2154a881e69e2503a315, type: 3}

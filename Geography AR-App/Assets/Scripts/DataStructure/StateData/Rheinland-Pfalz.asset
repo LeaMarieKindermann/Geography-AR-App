@@ -15,10 +15,12 @@ MonoBehaviour:
   stateName: Rheinland-Pfalz
   cityName: Mainz
   location: "S\xFCdwest"
-  area: "19.854 km\xB2"
-  population: ca. 4 Millionen
+  area: "19.854,21 km\xB2"
+  population: ca. 4.1 Millionen
   sightseeingAttractions: Deutsches Eck in Koblenz, Loreley, Hambacher Schloss, Trierer
     Dom
-  description: "Rheinland-Pfalz ist ber\xFChmt f\xFCr seinen Weinbau, das romantische
-    Rheintal und die Deutsche Weinstra\xDFe."
+  description: "Rheinland-Pfalz ist ber\xFChmt f\xFCr seinen Weinbau entlang der
+    Deutschen Weinstra\xDFe im romantischen Rheintal. Die Region lockt Besucher mit
+    malerischen Weinbergen, historischen St\xE4dten wie Trier und Mainz sowie vielf\xE4ltigen
+    Outdoor-Aktivit\xE4ten."
   flag: {fileID: 21300000, guid: 02e346ce278e3b1408a67f54eb35162c, type: 3}

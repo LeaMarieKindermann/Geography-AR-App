@@ -15,10 +15,12 @@ MonoBehaviour:
   stateName: Saarland
   cityName: "Saarbr\xFCcken"
   location: "S\xFCdwesten"
-  area: "2.570 km\xB2"
-  population: ca. 1 Million
+  area: "2.569,69 km\xB2"
+  population: ca. 994.424
   sightseeingAttractions: "V\xF6lklinger H\xFCtte, Saarschleife, Schloss Saarbr\xFCcken,
     R\xF6mische Villa Borg"
-  description: "Das Saarland hat eine starke industrielle Tradition, beeinflusst
-    von der N\xE4he zu Frankreich, und ist bekannt f\xFCr die V\xF6lklinger H\xFCtte."
+  description: "Das Saarland hat eine starke industrielle Tradition, die durch die
+    N\xE4he zu Frankreich beeinflusst wurde, und ist bekannt f\xFCr die V\xF6lklinger
+    H\xFCtte. Diese ist die erste industrielle Kulturst\xE4tte, die von der UNESCO
+    zum Weltkulturerbe erkl\xE4rt wurde."
   flag: {fileID: 21300000, guid: d2eea178d79bc734285e2905eb7fcc15, type: 3}

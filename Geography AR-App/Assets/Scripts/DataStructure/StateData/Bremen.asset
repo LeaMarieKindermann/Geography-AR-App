@@ -15,10 +15,13 @@ MonoBehaviour:
   stateName: Bremen
   cityName: Bremen (Stadtstaat)
   location: Nordwesten
-  area: "419 km\xB2"
-  population: ca. 680.000
+  area: "419,38 km\xB2"
+  population: ca. 691.703
   sightseeingAttractions: Bremer Stadtmusikanten, Rathaus Bremen, Schnoorviertel,
     Universum Bremen
-  description: Bremen ist eine historische Hansestadt mit einer starken maritimen
-    Tradition und einer bedeutenden Luft- und Raumfahrtindustrie.
+  description: "Bremen ist eine historische Hansestadt mit einer starken maritimen
+    Tradition. Der Hafen spielt eine zentrale Rolle im internationalen Handel, und
+    die Stadt ist bekannt f\xFCr ihre historische Altstadt mit mittelalterlichen
+    Geb\xE4uden und Pl\xE4tzen. Ber\xFChmt ist Bremen auch f\xFCr die Bremer Stadtmusikanten,
+    eine der bekanntesten deutschen Volkssagen."
   flag: {fileID: 21300000, guid: ee9b0d56af209224ea2c1c673717bb9c, type: 3}

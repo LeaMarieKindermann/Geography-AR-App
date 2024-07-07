@@ -15,9 +15,13 @@ MonoBehaviour:
   stateName: Sachsen
   cityName: Dresden
   location: Osten
-  area: "18.450 km\xB2"
+  area: "18.449,9 km\xB2"
   population: ca. 4 Millionen
   sightseeingAttractions: Zwinger in Dresden, Frauenkirche Dresden, Semperoper, Elbsandsteingebirge
-  description: "Sachsen ist bekannt f\xFCr seine reiche Kultur und Geschichte, pr\xE4chtige
-    Architektur und das ber\xFChmte Porzellan aus Mei\xDFen."
+  description: "Sachsen ist f\xFCr seine reiche Kultur und Geschichte bekannt, insbesondere
+    in Dresden und Leipzig, wo Kunst, Musik und Literatur eine lange Tradition haben.
+    Dresden beeindruckt mit seiner pr\xE4chtigen Architektur wie dem barocken Zwinger
+    und der Semperoper. Mei\xDFen ist ber\xFChmt f\xFCr sein hochwertiges Porzellan,
+    das seit dem 18. Jahrhundert gefertigt wird und einen bedeutenden Teil des kulturellen
+    Erbes der Region ausmacht."
   flag: {fileID: 21300000, guid: 713c93ae1be7e8a4da79abb347aac53d, type: 3}

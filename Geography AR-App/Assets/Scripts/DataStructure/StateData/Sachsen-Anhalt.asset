@@ -15,10 +15,15 @@ MonoBehaviour:
   stateName: Sachsen-Anhalt
   cityName: Magdeburg
   location: Mitteldeutschland
-  area: "20.452 km\xB2"
-  population: ca. 2.2 Millionen
+  area: "20.451,58 km\xB2"
+  population: ca. 2.18 Millionen
   sightseeingAttractions: Magdeburger Dom, Schloss Wernigerode, Lutherstadt Wittenberg,
     Bauhaus Dessau
-  description: Sachsen-Anhalt hat eine bedeutende mittelalterliche Architektur und
-    eine zentrale Rolle in der Reformationsgeschichte.
+  description: "Sachsen-Anhalt hat eine bedeutende mittelalterliche Architektur und
+    spielte eine zentrale Rolle in der Reformationsgeschichte. Der Harz, ein Mittelgebirge,
+    das sich \xFCber Teile von Sachsen-Anhalt, Niedersachsen und Th\xFCringen erstreckt,
+    ist bekannt f\xFCr seine reiche Bergbauhistorie, insbesondere den Silberbergbau,
+    der im Mittelalter und der fr\xFChen Neuzeit bedeutend war. Die Region ist auch
+    f\xFCr ihre beeindruckende Natur mit dichten W\xE4ldern, klaren B\xE4chen und
+    markanten Felsformationen bekannt."
   flag: {fileID: 21300000, guid: 10719778e364a304dad899aca369a93c, type: 3}

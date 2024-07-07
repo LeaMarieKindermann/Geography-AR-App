@@ -16,9 +16,10 @@ MonoBehaviour:
   cityName: Schwerin
   location: Nordosten
   area: "23.213 km\xB2"
-  population: ca. 1.6 Millionen
+  population: ca. 1.62 Millionen
   sightseeingAttractions: "Schweriner Schloss, Kreidefelsen auf R\xFCgen, M\xFCritz-Nationalpark,
-    Hansestadt Wismar"
+    Stadt Wismar"
   description: "Mecklenburg-Vorpommern ist bekannt f\xFCr seine Ostseek\xFCste, die
-    Mecklenburgische Seenplatte und seine historischen Hansest\xE4dte."
+    Mecklenburgische Seenplatte und seine historischen Hansest\xE4dte. Zudem beheimatet
+    es die bekannten Inseln R\xFCgen und Usedom."
   flag: {fileID: 21300000, guid: 0f1615a62262b7a4982a048f742478ef, type: 3}

@@ -15,11 +15,14 @@ MonoBehaviour:
   stateName: Nordrhein-Westfalen
   cityName: "D\xFCsseldorf"
   location: Westen
-  area: "34.085 km\xB2"
-  population: ca. 17.9 Millionen
+  area: "34.110,26 km\xB2"
+  population: ca. 18.19 Millionen
   sightseeingAttractions: "K\xF6lner Dom, D\xFCsseldorfer Altstadt, Zeche Zollverein,
     Schloss Benrath"
-  description: "Nordrhein-Westfalen ist das bev\xF6lkerungsreichste Bundesland, bekannt
-    f\xFCr seine Industrie und Wirtschaft sowie die Rheinschifffahrt und den Karneval
-    in K\xF6ln."
+  description: "Nordrhein-Westfalen ist das bev\xF6lkerungsreichste Bundesland Deutschlands
+    und bekannt f\xFCr seine starke Industrie und Wirtschaft. Die Rheinschifffahrt
+    ist eine wichtige wirtschaftliche und kulturelle Komponente entlang des Rheins,
+    der durch das Bundesland flie\xDFt. K\xF6ln ist ber\xFChmt f\xFCr seinen Karneval,
+    der j\xE4hrlich Millionen von Besuchern anzieht und eine bedeutende kulturelle
+    Tradition darstellt."
   flag: {fileID: 21300000, guid: 595b0ab236b390541be50d36b984cf76, type: 3}

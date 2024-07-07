@@ -15,10 +15,13 @@ MonoBehaviour:
   stateName: Hessen
   cityName: Wiesbaden
   location: Mitteldeutschland
-  area: "21.115 km\xB2"
-  population: ca. 6 Millionen
+  area: "21.114,94 km\xB2"
+  population: ca. 6.42 Millionen
   sightseeingAttractions: "R\xF6mer in Frankfurt, Schloss Wilhelmsh\xF6he in Kassel,
-    Loreley, Wiesbadener Kurhaus"
-  description: "Hessen ist bekannt f\xFCr das Banken- und Finanzzentrum Frankfurt,
-    seine Kurst\xE4dte und den Weinbau in der Region Rheingau."
+    Wiesbadener Kurhaus"
+  description: "Hessen ist auch f\xFCr seine vielf\xE4ltige Kulturszene bekannt,
+    die sich in renommierten Museen wie dem St\xE4del in Frankfurt und dem Mathildenh\xF6he
+    in Darmstadt widerspiegelt. Die Region bietet zudem eine abwechslungsreiche Landschaft
+    mit Mittelgebirgen wie dem Taunus und dem Vogelsberg, die zum Wandern und Erholen
+    einladen."
   flag: {fileID: 21300000, guid: b528958debeb26d4290fbd0656cddf2e, type: 3}
