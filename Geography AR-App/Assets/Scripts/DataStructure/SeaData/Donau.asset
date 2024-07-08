@@ -15,8 +15,10 @@ MonoBehaviour:
   seaName: Donau
   source: Schwarzwald, Deutschland (Zusammenfluss von Brigach und Breg)
   muendung: "Schwarzes Meer, Rum\xE4nien"
-  lenght: 2.850 km
+  lenght: 2.857 km
   cities: Wien, Budapest, Belgrad
-  meaning: "Zweitl\xE4ngster Fluss Europas, zahlreiche Kultursch\xE4tze entlang des
-    Flusses, wichtige Verkehrsroute, l\xE4ngster Fluss innerhalb deutschlands"
+  meaning: "Die Donau ist der zweitl\xE4ngste Fluss Europas und bekannt f\xFCr ihre
+    zahlreichen Kultursch\xE4tze entlang des Flusses. Sie dient als wichtige Verkehrsroute
+    und erstreckt sich \xFCber etwa 674 Kilometer innerhalb Deutschlands, ist aber
+    nicht der l\xE4ngste Fluss innerhalb des Landes."
   flag: {fileID: 21300000, guid: 51980e26d14d10b478ca7fbfe3dfc311, type: 3}

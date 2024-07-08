@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Main
   m_EditorClassIdentifier: 
   seaName: Main
-  source: "Fichtelgebirge (Wei\xDFer Main) und Frankenh\xF6he (Roter Main), Deutschland"
-  muendung: Rhein in Mainz
-  lenght: 524 km
-  cities: "Frankfurt am Main, W\xFCrzburg"
-  meaning: Wirtschaftsregion Rhein-Main, Weinanbaugebiete, Mainradweg
+  source: "Fichtelgebirge (Wei\xDFer Main) und Fr\xE4nkische Alb (Roter Main), Deutschland"
+  muendung: Rhein in Mainz-Kostheim
+  lenght: 527 km
+  cities: "Frankfurt am Main, W\xFCrzburg, Hanau "
+  meaning: "Der Main ist ein bedeutender Fluss in Deutschland, der durch Bayern und
+    Hessen flie\xDFt. Bekannt f\xFCr seinen Mainradweg, ist er eine wichtige Wasserstra\xDFe
+    f\xFCr den G\xFCterverkehr."
   flag: {fileID: 21300000, guid: d8c110009d48c0d479e74bee79c90247, type: 3}

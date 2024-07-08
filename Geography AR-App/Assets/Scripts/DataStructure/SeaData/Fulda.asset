@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Fulda
   m_EditorClassIdentifier: 
   seaName: Fulda
-  source: "Rh\xF6n, Deutschland"
+  source: "Wasserkuppe (Rh\xF6n), Deutschland"
   muendung: "Zusammenfluss mit der Werra zur Weser in Hann. M\xFCnden"
-  lenght: 220 km
+  lenght: 220,4 km
   cities: Fulda, Kassel
-  meaning: "Malerische Landschaften, Freizeitm\xF6glichkeiten wie Kanufahren"
+  meaning: "Die Fulda flie\xDFt durch malerische Landschaften in Hessen und bietet
+    Freizeitm\xF6glichkeiten wie Kanufahren und Wandern. Die Region ist bekannt f\xFCr
+    idyllische D\xF6rfer und historische St\xE4dte, die Besucher anziehen."
   flag: {fileID: 21300000, guid: a341fb5f68ea33d43a1ce0b9f80f77bd, type: 3}

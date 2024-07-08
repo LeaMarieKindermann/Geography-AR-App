@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Rhein
   m_EditorClassIdentifier: 
   seaName: Rhein
-  source: Tomasee, Schweiz
+  source: Tavetsch, Schweiz
   muendung: Nordsee bei Rotterdam
-  lenght: 1.230 km
+  lenght: 1.232,7 km
   cities: "K\xF6ln, D\xFCsseldorf, Basel"
-  meaning: "Bedeutendste Wasserstra\xDFe Europas, Weinbaugebiete, Loreley-Felsen"
+  meaning: "Der Rhein ist eine der bedeutendsten Wasserstra\xDFen Europas, bekannt
+    f\xFCr seine Weinbaugebiete und den Loreley-Felsen. Entlang des Flusses liegen
+    historische St\xE4dte wie K\xF6ln und Mainz."
   flag: {fileID: 21300000, guid: 7e368e2278cd37343a372f4579d1d13c, type: 3}

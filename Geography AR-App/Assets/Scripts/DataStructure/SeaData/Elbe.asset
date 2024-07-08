@@ -17,6 +17,7 @@ MonoBehaviour:
   muendung: Nordsee bei Cuxhaven
   lenght: 1.094 km
   cities: Dresden, Magdeburg, Hamburg
-  meaning: "Wichtige Wasserstra\xDFe, touristische Attraktionen wie die S\xE4chsische
-    Schweiz und die Elbphilharmonie in Hamburg"
+  meaning: "Die Elbe ist eine wichtige Wasserstra\xDFe in Deutschland, die durch
+    malerische Landschaften wie die S\xE4chsische Schweiz flie\xDFt und kulturelle
+    Highlights wie die Elbphilharmonie in Hamburg verbindet."
   flag: {fileID: 21300000, guid: 2b4ea7cfc6a968248a74c77a2d3d4ba8, type: 3}

@@ -49,7 +49,7 @@ public class QuestionGeneratorE : MonoBehaviour
         questions.Add(new Question("Welches Bundesland hat die meisten Einwohner?", new string[] { "A. Bayern", "B. Nordrhein-Westfalen", "C. Baden-Württemberg", "D. Hessen" }, "B"));
         questions.Add(new Question("Welches Bundesland grenzt nicht an das Ausland?", new string[] { "A. Bayern", "B. Saarland", "C. Brandenburg", "D. Sachsen-Anhalt" }, "D"));
         questions.Add(new Question("Welches Bundesland ist für seine vielfältige Automobilindustrie bekannt, unter anderem mit Standorten wie Wolfsburg und Stuttgart?", new string[] { "A. Bayern", "B. Niedersachsen", "C. Baden-Württemberg", "D. Nordrhein-Westfalen" }, "C"));
-        questions.Add(new Question("Welches von den unten erw hnten Staaten ist ein Sadtstaat?", new string[] { "A. Bremen", "B. Sachsen", "C. Niedersachsen", "D. Nordrhein-Westfalen" }, "A"));
+        questions.Add(new Question("Welches von den unten erwähnten Staaten ist ein Sadtstaat?", new string[] { "A. Bremen", "B. Sachsen", "C. Niedersachsen", "D. Nordrhein-Westfalen" }, "A"));
         questions.Add(new Question("In welchem Bundesland befindet sich der Harz, ein Mittelgebirge bekannt für seine reiche Bergbauhistorie und seine beeindruckende Natur?", new string[] { "A. Niedersachsen", "B. Nordrhein-Westfalen", "C. Hessen", "D. Sachsen-Anhalt" }, "D"));
         questions.Add(new Question("Welcher Fluss fließt durch die Städte Dresden, Magdeburg und Hamburg?", new string[] { "A. Rhein", "B. Donau", "C. Elbe", "D. Main" }, "C"));
         questions.Add(new Question("Welcher Fluss ist der längste innerhalb Deutschlands?", new string[] { "A. Rhein", "B. Donau", "C. Elbe", "D. Main" }, "B"));
