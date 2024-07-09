@@ -1285,12 +1285,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seaNameText: {fileID: 147819561}
-  sourceText: {fileID: 0}
-  muedungText: {fileID: 0}
-  lenghtText: {fileID: 0}
-  citiesText: {fileID: 0}
-  meaningText: {fileID: 0}
-  Image: {fileID: 0}
+  sourceText: {fileID: 1349007710}
+  muedungText: {fileID: 1674008845}
+  lenghtText: {fileID: 2061047096}
+  citiesText: {fileID: 1394510091}
+  meaningText: {fileID: 1066259480}
+  Image: {fileID: 197024970}
 --- !u!1 &1349007708
 GameObject:
   m_ObjectHideFlags: 0

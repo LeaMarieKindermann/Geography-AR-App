@@ -766,11 +766,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seaNameText: {fileID: 672288316}
-  sourceText: {fileID: 0}
-  muedungText: {fileID: 0}
-  lenghtText: {fileID: 0}
-  citiesText: {fileID: 0}
-  meaningText: {fileID: 0}
+  sourceText: {fileID: 1274772606}
+  muedungText: {fileID: 571832138}
+  lenghtText: {fileID: 555388013}
+  citiesText: {fileID: 449043113}
+  meaningText: {fileID: 567524003}
   Image: {fileID: 61632294}
   seaDataList:
   - {fileID: 11400000, guid: a57460bedadb2044088a66fd7f07e49a, type: 2}
