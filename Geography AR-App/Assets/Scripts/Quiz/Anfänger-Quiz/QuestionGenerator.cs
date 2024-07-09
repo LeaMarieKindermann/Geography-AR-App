@@ -55,7 +55,7 @@ public class QuestionGenerator : MonoBehaviour
         questions.Add(new Question("Welches Bundesland ist bekannt für den Kölner Dom?", new string[] { "A. Hamburg", "B. Nordrhein-Westfalen", "C. Schleswig-Holstein", "D. Rheinland-Pfalz" }, "B"));
         questions.Add(new Question("In welchem Bundesland liegt die Stadt Dresden?", new string[] { "A. Thüringen", "B. Sachsen-Anhalt", "C. Sachsen", "D. Brandenburg" }, "C"));
         questions.Add(new Question("Welches Bundesland hat Berlin als Hauptstadt?", new string[] { "A. Bayern", "B. Berlin", "C. Brandenburg", "D. Sachsen" }, "B"));
-        questions.Add(new Question("Welches Bundeland liegt unten links auf der Karte?", new string[] { "A. Baden-Württemberg", "B. Bayern", "C. Saarland", "D. Schleswig-Holstein" }, "A"));
+        questions.Add(new Question("Welches Bundesland liegt unten links auf der Karte?", new string[] { "A. Baden-Württemberg", "B. Bayern", "C. Saarland", "D. Schleswig-Holstein" }, "A"));
         questions.Add(new Question("Welche Stadt ist die Hauptstadt von Deutschland?", new string[] { "A. Stuttgart", "B. Frankfurt", "C. Berlin", "D. Bremen" }, "C"));
         questions.Add(new Question("Welches Land grenzt nicht an Deutschland?", new string[] { "A. Schweiz", "B. Niederlande", "C. Belgien", "D. Italien" }, "D"));
 
